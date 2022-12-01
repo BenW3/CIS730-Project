@@ -1,0 +1,251 @@
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:100: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:110: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:112: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:206: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:224: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:136: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:144: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:145: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:159: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:160: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:166: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:169: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:171: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:172: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:100: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:110: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:112: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:206: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:224: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:136: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:144: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:145: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:159: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:160: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:166: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:169: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:171: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:172: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/bweinhold/anaconda3/lib/python3.9/site-packages/tensorflow/python/compat/v2_compat.py:107: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /home/bweinhold/anaconda3/lib/python3.9/site-packages/tensorflow/python/util/dispatch.py:1176: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:102: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:112: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:114: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:208: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:226: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:138: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:146: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:147: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:161: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:162: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:168: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:171: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:173: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:174: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:102: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:112: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:114: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:208: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:226: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:138: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:146: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:147: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:161: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:162: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:168: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:171: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:173: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:174: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:208: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:226: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:146: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:208: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:226: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:146: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:102: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:112: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:114: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:208: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:226: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:138: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:146: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:147: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:161: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:162: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:168: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:171: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:173: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:174: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:208: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:226: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:146: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:208: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:226: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.Dense instead.
+WARNING:tensorflow:From /home/bweinhold/anaconda3/envs/730proj/lib/python3.7/site-packages/tensorflow_core/python/ops/clip_ops.py:301: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/bweinhold/MAgent/examples/models/tf_model/dqn.py:146: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
