@@ -147,7 +147,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--save_every", type=int, default=5)
     parser.add_argument("--render_every", type=int, default=10)
-    parser.add_argument("--n_round", type=int, default=2000)
+    parser.add_argument("--n_round", type=int, default=2)
     parser.add_argument("--render", action="store_true")
     parser.add_argument("--load_from", type=int)
     parser.add_argument("--train", action="store_true")
@@ -157,7 +157,7 @@ if __name__ == "__main__":
     parser.add_argument("--eval", action="store_true")
     parser.add_argument("--alg", default="dqn", choices=["dqn", "drqn", "a2c"])
     args = parser.parse_args()
-
+    args.train = True
     # set logger
     buffer.init_logger(args.name)
 

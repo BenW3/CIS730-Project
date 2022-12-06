@@ -67,46 +67,50 @@ def attack(point):
 
 
 def policy(obs, ag, env):
-    if (env.terminations[ag] or env.truncations[ag]):
-        return None
-    hostiles = obs[:,:,4]
-    friendly = obs[:,:,1]
-    friendlyMini = obs[:,:,3]
-    hostileMini = obs[:,:,6]
-    agentloc = [6,6]
-    surroundings = [[0, 1],[1, 1],[1, 0],[1,-1],[0,-1],[-1,-1],[-1,0],[-1,1]]
-    actions = 6
-    friendlyloc = (np.asarray(np.where(friendly == 1)).T-agentloc).tolist()
-    if 1 in hostiles:
-        hostileloc = (np.asarray(np.where(hostiles == 1)).T-agentloc).tolist()
-        dist = np.linalg.norm(hostileloc, axis = 1)
-        closest = hostileloc[np.argmin(dist)]
-        occupied = []
-        for i in hostileloc:
-            occupied.append(i)
-        for j in friendlyloc:
-            occupied.append(j)
+    # if (env.terminations[ag] or env.truncations[ag]):
+    #     return None
+    actionArray = []
+    for i in range(len(obs)):
+        hostiles = obs[i][:,:,4]
+        friendly = obs[i][:,:,1]
+        # print(np.asarray(friendly).shape)
+        friendlyMini = obs[i][:,:,3]
+        hostileMini = obs[i][:,:,6]
+        agentloc = [6,6]
+        surroundings = [[0, 1],[1, 1],[1, 0],[1,-1],[0,-1],[-1,-1],[-1,0],[-1,1]]
+        actions = 6
+        friendlyloc = (np.asarray(np.where(friendly == 1)).T-agentloc).tolist()
+        if 1 in hostiles:
+            hostileloc = (np.asarray(np.where(hostiles == 1)).T-agentloc).tolist()
+            dist = np.linalg.norm(hostileloc, axis = 1)
+            closest = hostileloc[np.argmin(dist)]
+            occupied = []
+            for i in hostileloc:
+                occupied.append(i)
+            for j in friendlyloc:
+                occupied.append(j)
 
-        if np.min(dist) <= 1:
-            actions = attack(closest)
-        elif np.min(dist) <= 2**(.5) and checkAdjacent(closest, occupied)== False:
-            actions = attack(closest)
+            if np.min(dist) <= 1:
+                actions = attack(closest)
+            elif np.min(dist) <= 2**(.5) and checkAdjacent(closest, occupied)== False:
+                actions = attack(closest)
+            else:
+                actions, targetCell = moveTo(closest)
+                if targetCell in occupied:
+                    newTarget = sidestep(targetCell,surroundings, occupied)
+                    actions, targetCell = moveTo(newTarget)
         else:
-            actions, targetCell = moveTo(closest)
-            if targetCell in occupied:
-                newTarget = sidestep(targetCell,surroundings, occupied)
-                actions, targetCell = moveTo(newTarget)
-    else:
-        probableLoc = np.asarray(np.where(friendlyMini == np.amax(friendlyMini))).T
-        correction = (np.asarray(np.where(hostileMini == np.amax(hostileMini))).T)[0].tolist()
-        hostileMini[correction[0]][correction[1]] = hostileMini[correction[0]][correction[1]] - 1
-        hostile = (np.asarray(np.where(hostileMini != 0)).T)
-        probableHostileLoc = np.average(hostile, axis = 0)
-        Target = (probableHostileLoc-probableLoc).tolist()
-        actions, targ = moveTo(Target[0])
+            probableLoc = np.asarray(np.where(friendlyMini == np.amax(friendlyMini))).T
+            correction = (np.asarray(np.where(hostileMini == np.amax(hostileMini))).T)[0].tolist()
+            hostileMini[correction[0]][correction[1]] = hostileMini[correction[0]][correction[1]] - 1
+            hostile = (np.asarray(np.where(hostileMini != 0)).T)
+            probableHostileLoc = np.average(hostile, axis = 0)
+            Target = (probableHostileLoc-probableLoc).tolist()
+            actions, targ = moveTo(Target[0])
 
-        if targ in friendlyloc:
-            newTarget = sidestep(targ,surroundings, friendlyloc)
-            actions, targ = moveTo(newTarget)
-
-    return actions
+            if targ in friendlyloc:
+                newTarget = sidestep(targ,surroundings, friendlyloc)
+                actions, targ = moveTo(newTarget)
+        actionArray.append(actions)
+    actionArray = np.asanyarray(actionArray, dtype=np.int32)
+    return actionArray
