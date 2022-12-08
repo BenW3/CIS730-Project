@@ -65,13 +65,13 @@ if __name__ == "__main__":
     generate_map(env, map_size, [redTeam, blueTeam], 100)
 
     # init two models
-    model1 = DeepQNetwork(env, redTeam, "battle-l") #learned policy
+    # model1 = DeepQNetwork(env, redTeam, "battle-l") #learned policy
     model2 = DeepQNetwork(env, blueTeam, "battle-r") #hand coded policy
     
 
     # load trained model
     model2.load("saveModel", epoch = 1999)
-    model1.load("saveModelHandCoded2", epoch = 1999)
+    # model1.load("saveModelHandCoded2", epoch = 1999)
 
     renderer = render.Renderer(env,map_size, "rgb_array")
     totalReward = [0,0]
@@ -82,8 +82,8 @@ if __name__ == "__main__":
         # take actions for deers
         obs_1 = env.get_observation(redTeam)
         ids_1 = env.get_agent_id(redTeam)
-        acts_1 = model1.infer_action(obs_1, ids_1)
-        # acts_1 = policy(obs_1[0], ids_1, env)
+        # acts_1 = model1.infer_action(obs_1, ids_1)
+        acts_1 = policy(obs_1[0], ids_1, env)
         env.set_action(redTeam, acts_1)
 
         # take actions for tigers
@@ -119,4 +119,4 @@ if __name__ == "__main__":
             break
     print("redTeam reward:"+str(totalReward[0])+"   blueTeam reward:"+str(totalReward[1]) )
     print("rendering gif of length: "+str(len(frame_list)))
-    frame_list[0].save('tesDiffVIdent.gif', save_all=True, append_images=frame_list[1:], duration=0.1, loop=0)
+    frame_list[0].save('testeval.gif', save_all=True, append_images=frame_list[1:], duration=0.1, loop=0)
